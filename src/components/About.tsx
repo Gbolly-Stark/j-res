@@ -87,7 +87,7 @@ const About = () => {
         <div className="flex-1">
           <img
           ref={imgRef}
-            src="/public/about.jfif"
+            src="/about.jfif"
             alt="Restaurant Interior"
             className="h-150 w-full rounded-3xl object-cover shadow-2xl"
           />

@@ -55,29 +55,27 @@ tl.from(
     >
      <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
 
-      <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-8">
+     <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-5 sm:px-8">
         <div ref={heroContentRef}
         className="max-w-2xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.4em] text-[#FBF332]">
             Fine Dining • Abuja
           </p>
 
-          <h1 
-           className="mb-6 text-6xl font-black leading-tight text-white md:text-7xl">
+        <h1
+  className="mb-6 text-4xl sm:text-5xl md:text-7xl font-black leading-[1.1] text-white"
+>
   <span className="block">Taste</span>
   <span className="block">Excellence</span>
   <span className="block">In Every Bite</span>
 </h1>
+         className="mb-10 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-gray-300"
 
-          <p ref={paragraphRef}
-          className="mb-10 max-w-xl text-lg leading-8 text-gray-300">
-            Experience unforgettable flavors crafted by expert chefs using the
-            finest ingredients in an atmosphere designed for elegance and comfort.
-          </p>
-
-          <div ref={buttonRef}
-           className="flex gap-5">
-            <button className="rounded-full bg-[#FBF332] px-8 py-4 font-bold text-black transition duration-300 hover:scale-105 hover:bg-yellow-300">
+          <div
+  ref={buttonRef}
+  className="flex flex-col gap-4 sm:flex-row sm:gap-5"
+>
+            <button className="w-full sm:w-auto rounded-full bg-[#FBF332] px-8 py-4 font-bold text-black...">
               Reserve a Table
             </button>
 
