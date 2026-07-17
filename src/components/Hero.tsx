@@ -48,9 +48,9 @@ tl.from(
 
   });
   return (
-    <section
-    id="home"
-      className="relative h-screen w-full bg-cover bg-center"
+  <section
+  id="home"
+  className="relative min-h-screen w-full overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: "url('/hero.jfif')" }}
     >
      <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
