@@ -69,8 +69,13 @@ tl.from(
   <span className="block">Excellence</span>
   <span className="block">In Every Bite</span>
 </h1>
-         className="mb-10 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-gray-300"
-
+        <p
+  ref={paragraphRef}
+  className="mb-10 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-gray-300"
+>
+  Experience unforgettable flavors crafted by expert chefs using the
+  finest ingredients in an atmosphere designed for elegance and comfort.
+</p>
           <div
   ref={buttonRef}
   className="flex flex-col gap-4 sm:flex-row sm:gap-5"
