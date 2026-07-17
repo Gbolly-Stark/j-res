@@ -81,7 +81,8 @@ const About = () => {
   )
 
   return (
-    <section className="bg-black py-24">
+    <section id="about"
+    className="bg-black py-24">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 px-6 lg:flex-row">
         <div className="flex-1">
           <img

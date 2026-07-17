@@ -73,6 +73,7 @@ const Review = () => {
 
   return (
     <section
+    id="review"
       ref={sectionRef}
       className="bg-black"
     >

@@ -49,6 +49,7 @@ tl.from(
   });
   return (
     <section
+    id="home"
       className="relative h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/hero.jfif')" }}
     >

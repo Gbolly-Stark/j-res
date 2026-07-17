@@ -82,6 +82,7 @@ const Contact = () => {
 
   return (
     <section
+    id="contact"
       ref={sectionRef}
       className="relative overflow-hidden bg-black py-32"
     >
