@@ -11,7 +11,7 @@ const Hero = () => {
   useGSAP(() => {
     const tl = gsap.timeline();
     tl.from(
-  heroContentRef.current?.querySelectorAll("h1 span"),
+  heroContentRef.current,
   {
     y: 100,
     opacity: 0,
