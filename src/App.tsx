@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 const App = () => {
   return (
-    <main>
+    <main className="relative inset-0">
       <Navbar />
       <Hero />
       <Featured />

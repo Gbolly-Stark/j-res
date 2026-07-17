@@ -53,7 +53,7 @@ tl.from(
       className="relative h-screen w-full bg-cover bg-center"
       style={{ backgroundImage: "url('/hero.jfif')" }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
+     <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
 
       <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center px-8">
         <div ref={heroContentRef}
