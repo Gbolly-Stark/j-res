@@ -17,7 +17,7 @@ const Navbar = () => {
    return (
     
   <nav ref={navRef}
-  className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-7xl rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl">
+  className="fixed top-4 left-1/2 -translate-x-1/2 z-0 w-[80%] justify-center bg-center text-center max-w-7xl rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-2xl">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img

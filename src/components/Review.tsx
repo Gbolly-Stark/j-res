@@ -74,7 +74,7 @@ const Review = () => {
   return (
     <section
       ref={sectionRef}
-      className="bg-gradient-to-b from-[#050505] to-black py-28 overflow-hidden"
+      className="bg-black"
     >
       <div className="max-w-7xl mx-auto px-6">
 
