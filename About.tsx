@@ -162,7 +162,7 @@ const About = () => {
         </div>
 
         <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md">
-          <h3 className="text-5xl font-black text-[#FBF332]">50000+</h3>
+          <h3 className="text-5xl font-black text-[#FBF332]">50k+</h3>
           <p className="mt-3 text-gray-300">Happy Guests</p>
         </div>
 
